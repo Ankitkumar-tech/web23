@@ -10,5 +10,9 @@ else{
 obj[arr[i]]++
 
 }
-
 }
+
+for(let key in obj)
+{
+ console.log(key)
+};
